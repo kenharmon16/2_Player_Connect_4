@@ -18,7 +18,7 @@ def create_board():
     return board
 
 
-def drop_piece(baord, row, col, piece):
+def drop_piece(board, row, col, piece):
     board[row][col] = piece
 
 
